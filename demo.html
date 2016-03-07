@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>MusicBtn Test</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" href="css/btn.css"/>
+</head>
+<body scroll="no" style="background: black">
+
+<script src="js/zepto.min.js"></script>
+<script type="text/javascript" src="js/MusicBtn.js"></script>
+<script>
+    var bgm = new MusicBtn({
+        id: 'music_ctrl_id',
+        src: 'audio/bg.mp3',
+        classOn: 'm_btn_on',
+        classOff: 'm_btn_off'
+    });
+//    bgm.stop();
+</script>
+</body>
+</html>
