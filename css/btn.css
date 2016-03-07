@@ -1,0 +1,21 @@
+.m_btn_on {
+    top:4%;
+    right: 4%;
+    /*margin: -25px 0 0 -30px;*/
+    position: absolute;
+    height: 33px;
+    width: 34px;
+    background: url("../images/m_btn.png") no-repeat 0 0;
+    z-index: 100;
+}
+
+.m_btn_off {
+    top:4%;
+    right: 4%;
+    /*margin: -25px 0 0 -30px;*/
+    position: absolute;
+    height: 33px;
+    width: 34px;
+    background: url("../images/m_btn.png") no-repeat -34px 0;
+    z-index: 100;
+}
