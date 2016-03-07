@@ -12,7 +12,7 @@ function MusicBtn(options) {
 }
 
 MusicBtn.prototype = {
-    //����������
+
     init: function () {
         //查找是否存在id
         if(document.getElementById(this.id)){
